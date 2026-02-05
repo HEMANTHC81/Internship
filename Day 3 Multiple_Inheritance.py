@@ -23,6 +23,6 @@ class SmartPhone(Camera, MusicPlayer):
         self.display_camera_details()
         self.display_music_details()
 
-# Create object and display details
 my_phone = SmartPhone("Samsung", "200MP", "Dolby Atmos")
 my_phone.display_smartphone_details()
+
